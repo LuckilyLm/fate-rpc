@@ -1,2 +1,0 @@
-no=org.fate.faterpc.fault.retry.NoRetryStrategy
-fixedInterval=org.fate.faterpc.fault.retry.FixedIntervalRetryStrategy

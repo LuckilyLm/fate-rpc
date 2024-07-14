@@ -1,1 +1,0 @@
-etcd=org.fate.faterpc.registry.EtcdRegistry

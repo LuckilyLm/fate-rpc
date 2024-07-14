@@ -1,3 +1,0 @@
-roundRobin=org.fate.faterpc.loadbalancer.RoundRobinLoadBalancer
-random=org.fate.faterpc.loadbalancer.RandomLoadBalancer
-consistentHash=org.fate.faterpc.loadbalancer.ConsistentHashLoadBalancer
