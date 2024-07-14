@@ -23,7 +23,7 @@
 
         <dependency>
             <groupId>org.fate</groupId>
-            <artifactId>fate-rpc-easy</artifactId>
+            <artifactId>fate-rpc-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

@@ -1,0 +1,4 @@
+jdk=org.fate.faterpc.serializer.JdkSerializer
+kryo=org.fate.faterpc.serializer.KryoSerializer
+hessian=org.fate.faterpc.serializer.HessianSerializer
+json=org.fate.faterpc.serializer.JsonSerializer

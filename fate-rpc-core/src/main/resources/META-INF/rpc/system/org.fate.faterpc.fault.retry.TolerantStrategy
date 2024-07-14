@@ -1,0 +1,4 @@
+failBack=org.fate.faterpc.fault.tolerant.FailBackTolerantStrategy
+failFast=org.fate.faterpc.fault.tolerant.FailFastTolerantStrategy
+failOver=org.fate.faterpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=org.fate.faterpc.fault.tolerant.FailSafeTolerantStrategy

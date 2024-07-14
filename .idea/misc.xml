@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/example-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/example-provider/pom.xml" />
         <option value="$PROJECT_DIR$/fate-rpc-easy/pom.xml" />
+        <option value="$PROJECT_DIR$/fate-rpc-core/pom.xml" />
+        <option value="$PROJECT_DIR$/fate-rpc-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-provider/pom.xml" />
       </list>
     </option>
   </component>

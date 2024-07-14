@@ -2,7 +2,8 @@ package org.fate.example.consumer;
 
 import org.fate.example.common.model.User;
 import org.fate.example.common.service.UserService;
-import org.fate.example.proxy.ServiceProxyFactory;
+import org.fate.faterpc.bootstrap.ConsumerBootstrap;
+import org.fate.faterpc.proxy.ServiceProxyFactory;
 
 /**
  * @Description: 简单消费者示例
@@ -12,6 +13,10 @@ import org.fate.example.proxy.ServiceProxyFactory;
 public class EasyConsumerExample
 {
     public static void main(String[] args) {
+
+        // 初始化消费者
+        ConsumerBootstrap.init();
+
         // 设置代理
         UserService userService = ServiceProxyFactory.getProxy(UserService.class);
 
@@ -25,5 +30,8 @@ public class EasyConsumerExample
 
             System.out.println("user == null");
         }
+
+        int number = userService.getNumber();
+        System.err.println(number);
     }
 }

@@ -27,7 +27,6 @@ public class HttpServerHandler implements Handler<HttpServerRequest> {
 
         // 记录日志
         System.out.println("receive request from " + request.method() + " " + request.uri());
-
         // 异步处理HTTP请求
         request.bodyHandler(body -> {
             byte[] bytes = body.getBytes();
