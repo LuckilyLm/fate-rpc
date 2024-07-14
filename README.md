@@ -16,7 +16,8 @@ fate-rpc-core   Fate-RPC框架的核心<br/>
 fate-rpc-springboot-starter 注解驱动的RPC框架 使用SpringBoot框架快速启动<br/>
 
 <h3>2.基本流程</h3>
-![屏幕截图 2024-07-14 190220](https://github.com/user-attachments/assets/93ab73e7-5af5-4c43-904c-4fa6dd1e1eea)
+![1](https://github.com/user-attachments/assets/cf90a230-b9ea-4f10-b7e6-0c2d69521320)
+
 
 
 <h3>3.使用</h3>
