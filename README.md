@@ -22,8 +22,8 @@ fate-rpc-springboot-starter 注解驱动的RPC框架 使用SpringBoot框架快�
 
 <h3>3.使用</h3>
 在example-common模块service层下添加需要的服务<br/>
-在example-springboot-provider编写实现服务类添加<font color=yellow>@RpcService</font>并声明为Bean<br/>
-在example-springboot-consumer 使用使用<font color=yellow>@RpcReference</font>注入服务<br/>
+在example-springboot-provider编写实现服务类添加<font color:yellow>@RpcService</font>并声明为Bean<br/>
+在example-springboot-consumer 使用使用<font color:yellow>@RpcReference</font>注入服务<br/>
 在fate-rpc-core 编写application.properties配置文件对RpcConfig进行配置，启动Etcd注册中心<br/>
 最后启动example-springboot-provider和example-springboot-consumer的启动类，调用服务即可<br/>
 
